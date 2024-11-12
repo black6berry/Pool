@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PoolModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Abonement">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="NumberVisitId" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="SoldTikets" Relationship="Self.FK_SoldTiket_Ticket" FromRole="Abonement" ToRole="SoldTiket" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Ticket_Category" FromRole="Abonement" ToRole="Category" />
+    <NavigationProperty Name="NumberVisit" Relationship="Self.FK_Ticket_NumberVisit" FromRole="Abonement" ToRole="NumberVisit" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_User_Ticket" FromRole="Abonement" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Abonements" Relationship="Self.FK_Ticket_Category" FromRole="Category" ToRole="Abonement" />
+    <NavigationProperty Name="Groups" Relationship="Self.FK_Group_Category1" FromRole="Category" ToRole="Group" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Group_Category1" FromRole="Group" ToRole="Category" />
+    <NavigationProperty Name="Treners" Relationship="Self.FK_Coach_Group" FromRole="Group" ToRole="Trener" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Group_User" FromRole="Group" ToRole="User" />
+  </EntityType>
+  <EntityType Name="NumberVisit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Quantity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Abonements" Relationship="Self.FK_Ticket_NumberVisit" FromRole="NumberVisit" ToRole="Abonement" />
+  </EntityType>
+  <EntityType Name="Pool">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <Property Name="TrenerId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Trener" Relationship="Self.FK_Pool_Trener" FromRole="Pool" ToRole="Trener" />
+    <NavigationProperty Name="Type" Relationship="Self.FK_Pool_Type" FromRole="Pool" ToRole="Type" />
+    <NavigationProperty Name="SoldTikets" Relationship="Self.FK_SoldTiket_Pool" FromRole="Pool" ToRole="SoldTiket" />
+  </EntityType>
+  <EntityType Name="SoldTiket">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AbonementId" Type="Int32" Nullable="false" />
+    <Property Name="PoolId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Abonement" Relationship="Self.FK_SoldTiket_Ticket" FromRole="SoldTiket" ToRole="Abonement" />
+    <NavigationProperty Name="Pool" Relationship="Self.FK_SoldTiket_Pool" FromRole="SoldTiket" ToRole="Pool" />
+    <NavigationProperty Name="User" Relationship="Self.FK_SoldTiket_User" FromRole="SoldTiket" ToRole="User" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Trener">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SNP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GroupId" Type="Int32" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_Coach_Group" FromRole="Trener" ToRole="Group" />
+    <NavigationProperty Name="Pools" Relationship="Self.FK_Pool_Trener" FromRole="Trener" ToRole="Pool" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Pools" Relationship="Self.FK_Pool_Type" FromRole="Type" ToRole="Pool" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronomic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="AboonementId" Type="Int32" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Pasword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Abonement" Relationship="Self.FK_User_Ticket" FromRole="User" ToRole="Abonement" />
+    <NavigationProperty Name="Groups" Relationship="Self.FK_Group_User" FromRole="User" ToRole="Group" />
+    <NavigationProperty Name="SoldTikets" Relationship="Self.FK_SoldTiket_User" FromRole="User" ToRole="SoldTiket" />
+  </EntityType>
+  <Association Name="FK_SoldTiket_Ticket">
+    <End Role="Abonement" Type="Self.Abonement" Multiplicity="1" />
+    <End Role="SoldTiket" Type="Self.SoldTiket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Abonement">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SoldTiket">
+        <PropertyRef Name="AbonementId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Abonement" Type="Self.Abonement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Abonement">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_NumberVisit">
+    <End Role="NumberVisit" Type="Self.NumberVisit" Multiplicity="1" />
+    <End Role="Abonement" Type="Self.Abonement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NumberVisit">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Abonement">
+        <PropertyRef Name="NumberVisitId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Ticket">
+    <End Role="Abonement" Type="Self.Abonement" Multiplicity="1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Abonement">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="AboonementId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Group_Category1">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Group" Type="Self.Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Group">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Coach_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="1" />
+    <End Role="Trener" Type="Self.Trener" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Trener">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Group_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Group" Type="Self.Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Group">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pool_Trener">
+    <End Role="Trener" Type="Self.Trener" Multiplicity="1" />
+    <End Role="Pool" Type="Self.Pool" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trener">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Pool">
+        <PropertyRef Name="TrenerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pool_Type">
+    <End Role="Type" Type="Self.Type" Multiplicity="1" />
+    <End Role="Pool" Type="Self.Pool" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Pool">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SoldTiket_Pool">
+    <End Role="Pool" Type="Self.Pool" Multiplicity="1" />
+    <End Role="SoldTiket" Type="Self.SoldTiket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pool">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SoldTiket">
+        <PropertyRef Name="PoolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SoldTiket_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="SoldTiket" Type="Self.SoldTiket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SoldTiket">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PoolEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Abonements" EntityType="Self.Abonement" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="NumberVisits" EntityType="Self.NumberVisit" />
+    <EntitySet Name="Pools" EntityType="Self.Pool" />
+    <EntitySet Name="SoldTikets" EntityType="Self.SoldTiket" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Treners" EntityType="Self.Trener" />
+    <EntitySet Name="Types" EntityType="Self.Type" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_SoldTiket_Ticket" Association="Self.FK_SoldTiket_Ticket">
+      <End Role="Abonement" EntitySet="Abonements" />
+      <End Role="SoldTiket" EntitySet="SoldTikets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_Category" Association="Self.FK_Ticket_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Abonement" EntitySet="Abonements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_NumberVisit" Association="Self.FK_Ticket_NumberVisit">
+      <End Role="NumberVisit" EntitySet="NumberVisits" />
+      <End Role="Abonement" EntitySet="Abonements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Ticket" Association="Self.FK_User_Ticket">
+      <End Role="Abonement" EntitySet="Abonements" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Group_Category1" Association="Self.FK_Group_Category1">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Group" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Coach_Group" Association="Self.FK_Coach_Group">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Trener" EntitySet="Treners" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Group_User" Association="Self.FK_Group_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Group" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pool_Trener" Association="Self.FK_Pool_Trener">
+      <End Role="Trener" EntitySet="Treners" />
+      <End Role="Pool" EntitySet="Pools" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pool_Type" Association="Self.FK_Pool_Type">
+      <End Role="Type" EntitySet="Types" />
+      <End Role="Pool" EntitySet="Pools" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SoldTiket_Pool" Association="Self.FK_SoldTiket_Pool">
+      <End Role="Pool" EntitySet="Pools" />
+      <End Role="SoldTiket" EntitySet="SoldTikets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SoldTiket_User" Association="Self.FK_SoldTiket_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="SoldTiket" EntitySet="SoldTikets" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

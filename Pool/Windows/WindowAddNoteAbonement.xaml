@@ -1,0 +1,82 @@
+﻿<Window x:Class="Pool.Windows.WindowAddNoteAbonement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pool.Windows"
+        mc:Ignorable="d"
+        Title="Добавление абонемента" 
+        Height="220" 
+        Width="350"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid>
+        <StackPanel
+            Orientation="Vertical"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            >
+            <StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    >
+                <Label
+                    Content="Номер"/>
+                <TextBox
+                    Name="TxbNumber"
+                    Width="150"
+                    Height="20"/>
+            </StackPanel>
+            <StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    >
+                <Label
+                    Content="Категория"/>
+                <ComboBox
+                    Name="CmbCategory"
+                    Width="150"
+                    Height="20"
+                    ItemsSource="{Binding Id}"
+                    SelectedItem="{Binding IdSelectedItem}"
+                    ToolTip="{Binding Path=SelectedItem.display,ElementName=CmbCategory}"/>
+            </StackPanel>
+            <StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                >
+                <Label
+                    Content="Кол-во посещений"/>
+                <TextBox
+                    Name="TxbNumberVisit"
+                    Width="150"
+                    Height="20"/>
+            </StackPanel>
+            <StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                >
+                <Label
+                    Content="Цена"/>
+                <TextBox
+                    Name="TxbPrice"
+                    Width="150"
+                    Height="20"
+                    />
+            </StackPanel>
+
+            <StackPanel
+                Orientation="Vertical"
+            >
+                <Button
+                    Name="BtnAddNote"
+                    Click="BtnAddNote_Click"
+                    Content="Сохранить"
+                    Width="80"
+                    Height="25"
+                    Margin="0 20 0 0"
+                />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

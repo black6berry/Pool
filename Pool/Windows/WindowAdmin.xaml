@@ -1,0 +1,177 @@
+﻿<Window x:Class="Pool.WindowAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pool"
+        mc:Ignorable="d"
+        Title="Общие сведения" 
+        Height="450" 
+        Width="800"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="197*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="129*"/>
+            <ColumnDefinition Width="671*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="2"
+            Orientation="Horizontal"
+            Margin="10 0 0 0 ">
+            <Button
+                Height="30"
+                Width="80"
+                Name="AddNote"
+                Content="Добавить"
+                Click="AddNote_Click"
+                />
+            <Button
+                Height="30"
+                Width="80"
+                Name="DeleteNote"
+                Content="Удалить"
+                Click="DeleteNote_Click"
+                Margin="10 0 0 0 "
+                />
+        </StackPanel>
+        <DockPanel
+            Grid.Row="0"
+            Grid.Column="2"
+            HorizontalAlignment="Right"
+            Background="White"
+            VerticalAlignment="Center"
+            >
+
+            <Label
+                Content="Поиск:"/>
+            <TextBox
+                Name="TxbSearch"
+                MouseDoubleClick="TxbSearch_MouseDoubleClick"
+                SelectionChanged="TxbSearch_SelectionChanged"
+                Width="220"
+                Height="20"
+                Margin="0 0 10 0"
+                HorizontalScrollBarVisibility="Auto">
+
+            </TextBox>
+        </DockPanel>
+       
+    
+        <StackPanel 
+            Grid.ColumnSpan="1" 
+            Grid.RowSpan="2">
+            <Button
+                Name="User"
+                Click="User_Click"
+                Content="Посетители"
+                Width="100"
+                Height="25"
+                Margin="0 10 0 0"
+                />
+            <Button
+                Name="Pool"
+                Click="Pool_Click"
+                Content="Басейны"
+                Width="100"
+                Height="25"
+                Margin="0 10 0 0"
+                />
+            <Button
+                Name="Trener"
+                Click="Trener_Click"
+                Content="Тренера"
+                Width="100"
+                Height="25"
+                Margin="0 10 0 0"
+                />
+            <Button
+                Name="Group"
+                Click="Group_Click"
+                Content="Группы"
+                Width="100"
+                Height="25"
+                Margin="0 10 0 0"
+                />
+            <Button
+                Name="Abonement"
+                Click="Abonement_Click"
+                Content="Абонементы"
+                Width="100"
+                Height="25"
+                Margin="0 10 0 0"
+                />
+        </StackPanel>
+
+
+        <DataGrid 
+            Grid.Column="1"
+            Grid.Row="2"
+            Name="GridUserList"
+            AutoGenerateColumns="False"
+            IsReadOnly="True"
+            RowBackground="LightGray"
+            AlternatingRowBackground="White"
+            GridLinesVisibility="All" 
+            Grid.RowSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Header="ID"
+                    Binding="{Binding Id}"
+                    Width="1"
+                    />
+                <DataGridTextColumn
+                    Header="Name"
+                    Binding="{Binding Name}"
+                    Width="*"
+                    />
+                <DataGridTextColumn
+                    Header="Surname"
+                    Binding="{Binding Surname}"
+                    Width="*"
+                    />
+                <DataGridTextColumn
+                    Header="Patronomic"
+                    Binding="{Binding Patronomic}"
+                    Width="*"
+                    />
+                <DataGridTextColumn
+                    Header="Phone"
+                    Binding="{Binding Phone}"
+                    Width="*"
+                    />
+                <DataGridTextColumn
+                    Header="AbonementNum"
+                    Binding="{Binding Abonement.Number}"
+                    Width="*"
+                    />
+                <DataGridTextColumn
+                    Header="Category"
+                    Binding="{Binding Abonement.Category.Name}"
+                    Width="*"
+                    />
+                <DataGridTextColumn
+                    Header="Visit"
+                    Binding="{Binding Abonement.NumberVisit.Quantity}"
+                    Width="*"
+                    />
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Frame 
+            Grid.ColumnSpan="2"
+            Grid.RowSpan="2"
+            Name="FrmGrid"
+            NavigationUIVisibility="Hidden"
+            />
+
+    </Grid>
+</Window>

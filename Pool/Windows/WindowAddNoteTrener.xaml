@@ -1,0 +1,71 @@
+﻿<Window x:Class="Pool.Windows.WindowAddNoteTrener"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pool.Windows"
+        mc:Ignorable="d"
+        Title="Добавлеие тренера" 
+        Height="200" 
+        Width="250"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid>
+        <StackPanel
+            Orientation="Vertical"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            >
+            <StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    >
+                <Label
+                    Content="ФИО"/>
+                <TextBox
+                    Name="TxbSNP"
+                    Width="150"
+                    Height="20"/>
+            </StackPanel>
+            <StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    >
+                <Label
+                    Content="Группа"/>
+                <ComboBox
+                    Name="CmbCategory"
+                    Width="150"
+                    Height="20"
+                    ItemsSource="{Binding Id}"
+                    SelectedItem="{Binding IdSelectedItem}"
+                    ToolTip="{Binding Path=SelectedItem.display,ElementName=CmbCategory}"/>
+            </StackPanel>
+            <StackPanel
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                >
+                <Label
+                    Content="Телефон"/>
+                <TextBox
+                    Name="TxbPhone"
+                    Width="150"
+                    Height="20"
+                    MaxLength="10"/>
+            </StackPanel>
+
+            <StackPanel
+                Orientation="Vertical"
+            >
+                <Button
+                    Name="BtnAddNote"
+                    Click="BtnAddNote_Click"
+                    Content="Сохранить"
+                    Width="80"
+                    Height="25"
+                    Margin="0 20 0 0"
+                />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

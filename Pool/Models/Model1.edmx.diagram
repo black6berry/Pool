@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b06c8ee5f37f4ababd2b8370cfa812bc" Name="Diagram1">
+        <EntityTypeShape EntityType="PoolModel.Abonement" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.Group" Width="1.5" PointX="7.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.NumberVisit" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.Pool" Width="1.5" PointX="12" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.SoldTiket" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.Trener" Width="1.5" PointX="9.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.Type" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoolModel.User" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <AssociationConnector Association="PoolModel.FK_SoldTiket_Ticket" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_Ticket_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_Ticket_NumberVisit" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_User_Ticket" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_Group_Category1" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_Coach_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_Group_User" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_Pool_Trener" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_Pool_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_SoldTiket_Pool" ManuallyRouted="false" />
+        <AssociationConnector Association="PoolModel.FK_SoldTiket_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

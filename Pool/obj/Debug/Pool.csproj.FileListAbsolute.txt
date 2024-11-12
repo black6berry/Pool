@@ -1,0 +1,135 @@
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.csproj.AssemblyReference.cache
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.csproj.SuggestedBindingRedirects.cache
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\MainWindow.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\App.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool_MarkupCompile.cache
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool_MarkupCompile.lref
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAdmin.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool_Content.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\Pool.exe.config
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\Pool.exe
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\Pool.pdb
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\EntityFramework.dll
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\EntityFramework.SqlServer.dll
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\EntityFramework.xml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\EntityFramework.SqlServer.xml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\bin\Debug\ru\EntityFramework.resources.dll
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\MainWindow.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAdmin.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.g.resources
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.Properties.Resources.resources
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.csproj.GenerateResource.cache
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.csproj.CoreCompileInputs.cache
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.csproj.CopyComplete
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.exe
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pool.pdb
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PagePool.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PagePool.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageUsers.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageUsers.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageTrener.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageTrener.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageGroup.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageGroup.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageAbonement.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Pages\PageAbonement.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteUser.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteUser.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteAbonement.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteGroup.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNotePool.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteTrener.g.cs
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteAbonement.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteGroup.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNotePool.baml
+C:\777_Mike_777\Hackaton\Hack 6\Pool\Pool\obj\Debug\Windows\WindowAddNoteTrener.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\Pool.exe.config
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\Pool.exe
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\Pool.pdb
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\EntityFramework.dll
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\EntityFramework.SqlServer.dll
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\EntityFramework.xml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\EntityFramework.SqlServer.xml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\bin\Debug\ru\EntityFramework.resources.dll
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.csproj.AssemblyReference.cache
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.csproj.SuggestedBindingRedirects.cache
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\MainWindow.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageAbonement.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageGroup.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PagePool.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageTrener.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageUsers.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteAbonement.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteGroup.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNotePool.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteTrener.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteUser.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAdmin.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\App.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool_Content.g.cs
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool_MarkupCompile.cache
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool_MarkupCompile.lref
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\MainWindow.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageAbonement.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageGroup.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PagePool.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageTrener.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pages\PageUsers.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteAbonement.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteGroup.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNotePool.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteTrener.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAddNoteUser.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Windows\WindowAdmin.baml
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.g.resources
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.Properties.Resources.resources
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.csproj.GenerateResource.cache
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.csproj.CoreCompileInputs.cache
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.csproj.CopyComplete
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.exe
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\Pool.pdb
+C:\777_Mike_777\Projects\PC Progs\Pool\Pool\obj\Debug\App.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\Pool.exe.config
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\Pool.exe
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\Pool.pdb
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\EntityFramework.dll
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\EntityFramework.SqlServer.dll
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\EntityFramework.xml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\EntityFramework.SqlServer.xml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\bin\Debug\ru\EntityFramework.resources.dll
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.csproj.AssemblyReference.cache
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\MainWindow.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageAbonement.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageGroup.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PagePool.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageTrener.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageUsers.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteAbonement.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteGroup.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNotePool.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteTrener.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteUser.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAdmin.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\App.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool_Content.g.cs
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool_MarkupCompile.cache
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool_MarkupCompile.lref
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\MainWindow.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageAbonement.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageGroup.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PagePool.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageTrener.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pages\PageUsers.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteAbonement.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteGroup.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNotePool.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteTrener.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAddNoteUser.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Windows\WindowAdmin.baml
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.g.resources
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.Properties.Resources.resources
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.csproj.GenerateResource.cache
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.csproj.CoreCompileInputs.cache
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.exe
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.pdb
+C:\777_Mike_777\MGOK\PC Progs\Pool\WPF Pool\Pool\obj\Debug\Pool.csproj.Up2Date

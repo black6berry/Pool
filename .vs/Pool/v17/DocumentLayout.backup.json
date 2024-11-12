@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\models\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\models\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|c:\\777_mike_777\\mgok\\pc progs\\pool\\wpf pool\\pool\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\frameapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\frameapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\pages\\pageabonement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\pages\\pageabonement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\windows\\windowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\windows\\windowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\windows\\windowaddnoteuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\windows\\windowaddnoteuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\windows\\windowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\windows\\windowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\windows\\windowaddnoteabonement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\windows\\windowaddnoteabonement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\windows\\windowaddnotegroup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\windows\\windowaddnotegroup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\windows\\windowaddnotepool.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\windows\\windowaddnotepool.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\pool\\windows\\windowaddnotetrener.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D556C87F-CC4B-4F9F-B842-B4946B29B726}|Pool\\Pool.csproj|solutionrelative:pool\\windows\\windowaddnotetrener.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 463,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Pool\\App.xaml.cs",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\App.xaml.cs",
+              "RelativeToolTip": "Pool\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH\u002BSURBVDhP7ZRPaNNQHMe/TdNma2NrW1jUFYZYN0YKHqZischAMCCjh94siEfp0buIeBZ2LYKXHvSWQ4toDkKC0F7EU93NQyEthkFnG9uuaf6YhIcusknBHTz4gR\u002B/x\u002B/7e1/ee8l7IRzhmbi3s0TTzc3zcYQpp3R3K9sk0sJQJPtscgmcSzJ4\u002BeErPvemj99\u002B6t0j0sKEcF96SsbgV\u002BOX\u002BQvxyvu9A9zaSOL2\u002BrK8Zn9R6vU66QBomkYul0OpVNJns9mLYrGoE8mHhhPaImNoI4Nboikcmjb29TkYOr6dZtPbPM\u002BTDmAwGGAymaDb7Q44jttvt9tSoVDQiOyu8AhvPqo7\u002BqHVfP5OReXGCgQ\u002BiRU2BMMwSAcgSZIfiUQC5XIZLMs\u002BSKVSYj6f/\u002B7pgTPs9CbofTPw6E4WQj6JTAyYz\u002BdE/YXjONB1HaIoQtO03el0\u002BpBIQcPrq6Ybbr64jLOMA8e2/MnHYds2RqMR3C2nG43GGVJGmGSfm1evrI8PtMqltSzoMOVPOo5MJuN/GC/6/T5UVVU6nY7saYEVyrKMVquF8Xh8oplnIgjCz/DMTdMk6m\u002BGlmX5Z3bSNhchYHga/Df8e/59Q5pkn2g0CoqioCgKGIYh1T8zHA4Ri7mXnhB4barV6jX3hjzxmryffBG8VycSibyu1WqvSOk0AX4A4Q67Z\u002BxJ14gAAAAASUVORK5CYII=",
+              "WhenOpened": "2023-10-27T09:24:18.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\App.xaml",
+              "RelativeDocumentMoniker": "Pool\\App.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\App.xaml",
+              "RelativeToolTip": "Pool\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-10-27T09:24:16.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrameApp.cs",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\FrameApp.cs",
+              "RelativeDocumentMoniker": "Pool\\FrameApp.cs",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\FrameApp.cs",
+              "RelativeToolTip": "Pool\\FrameApp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2023-06-01T07:23:10.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnectDb.cs",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Models\\ConnectDb.cs",
+              "RelativeDocumentMoniker": "Pool\\Models\\ConnectDb.cs",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Models\\ConnectDb.cs",
+              "RelativeToolTip": "Pool\\Models\\ConnectDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-06-01T07:23:01.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageAbonement.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Pages\\PageAbonement.xaml",
+              "RelativeDocumentMoniker": "Pool\\Pages\\PageAbonement.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Pages\\PageAbonement.xaml",
+              "RelativeToolTip": "Pool\\Pages\\PageAbonement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-03-09T04:01:10.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pool\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Pool\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-09T03:57:57.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Pool\\MainWindow.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\MainWindow.xaml",
+              "RelativeToolTip": "Pool\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-03-09T03:57:32.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WindowAddNoteAbonement.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteAbonement.xaml",
+              "RelativeDocumentMoniker": "Pool\\Windows\\WindowAddNoteAbonement.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteAbonement.xaml",
+              "RelativeToolTip": "Pool\\Windows\\WindowAddNoteAbonement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-01-31T12:19:22.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WindowAddNoteTrener.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteTrener.xaml",
+              "RelativeDocumentMoniker": "Pool\\Windows\\WindowAddNoteTrener.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteTrener.xaml",
+              "RelativeToolTip": "Pool\\Windows\\WindowAddNoteTrener.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-01-31T12:18:56.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WindowAddNoteUser.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteUser.xaml",
+              "RelativeDocumentMoniker": "Pool\\Windows\\WindowAddNoteUser.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteUser.xaml",
+              "RelativeToolTip": "Pool\\Windows\\WindowAddNoteUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-01-31T12:18:10.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WindowAdmin.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAdmin.xaml",
+              "RelativeDocumentMoniker": "Pool\\Windows\\WindowAdmin.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAdmin.xaml",
+              "RelativeToolTip": "Pool\\Windows\\WindowAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-01-31T11:47:44.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WindowAdmin.xaml.cs",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "Pool\\Windows\\WindowAdmin.xaml.cs",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAdmin.xaml.cs",
+              "RelativeToolTip": "Pool\\Windows\\WindowAdmin.xaml.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH\u002BSURBVDhP7ZRPaNNQHMe/TdNma2NrW1jUFYZYN0YKHqZischAMCCjh94siEfp0buIeBZ2LYKXHvSWQ4toDkKC0F7EU93NQyEthkFnG9uuaf6YhIcusknBHTz4gR\u002B/x\u002B/7e1/ee8l7IRzhmbi3s0TTzc3zcYQpp3R3K9sk0sJQJPtscgmcSzJ4\u002BeErPvemj99\u002B6t0j0sKEcF96SsbgV\u002BOX\u002BQvxyvu9A9zaSOL2\u002BrK8Zn9R6vU66QBomkYul0OpVNJns9mLYrGoE8mHhhPaImNoI4Nboikcmjb29TkYOr6dZtPbPM\u002BTDmAwGGAymaDb7Q44jttvt9tSoVDQiOyu8AhvPqo7\u002BqHVfP5OReXGCgQ\u002BiRU2BMMwSAcgSZIfiUQC5XIZLMs\u002BSKVSYj6f/\u002B7pgTPs9CbofTPw6E4WQj6JTAyYz\u002BdE/YXjONB1HaIoQtO03el0\u002BpBIQcPrq6Ybbr64jLOMA8e2/MnHYds2RqMR3C2nG43GGVJGmGSfm1evrI8PtMqltSzoMOVPOo5MJuN/GC/6/T5UVVU6nY7saYEVyrKMVquF8Xh8oplnIgjCz/DMTdMk6m\u002BGlmX5Z3bSNhchYHga/Df8e/59Q5pkn2g0CoqioCgKGIYh1T8zHA4Ri7mXnhB4barV6jX3hjzxmryffBG8VycSibyu1WqvSOk0AX4A4Q67Z\u002BxJ14gAAAAASUVORK5CYII=",
+              "WhenOpened": "2023-01-31T11:47:49.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WindowAddNotePool.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNotePool.xaml",
+              "RelativeDocumentMoniker": "Pool\\Windows\\WindowAddNotePool.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNotePool.xaml",
+              "RelativeToolTip": "Pool\\Windows\\WindowAddNotePool.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-01-31T12:19:00.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WindowAddNoteGroup.xaml",
+              "DocumentMoniker": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteGroup.xaml",
+              "RelativeDocumentMoniker": "Pool\\Windows\\WindowAddNoteGroup.xaml",
+              "ToolTip": "C:\\777_Mike_777\\MGOK\\PC Progs\\Pool\\WPF Pool\\Pool\\Windows\\WindowAddNoteGroup.xaml",
+              "RelativeToolTip": "Pool\\Windows\\WindowAddNoteGroup.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-01-31T12:19:09.218Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
